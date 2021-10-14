@@ -74,6 +74,12 @@ ul {
     z-index: 2;
     display: none;
 }
+.msg-menu-1 {
+    display: none;
+}
+.msg-menu-1.show {
+    display: block;
+}
 .msg-menu {
     display: none;
 }
@@ -131,7 +137,7 @@ hr {
 /* NEWS CARDS */
 .news-cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     margin: 10px 0;
 }

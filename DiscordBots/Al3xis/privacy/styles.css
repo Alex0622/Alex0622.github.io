@@ -74,12 +74,7 @@ ul {
     z-index: 2;
     display: none;
 }
-.msg-menu-1 {
-    display: none;
-}
-.msg-menu-1.show {
-    display: block;
-}
+
 .msg-menu {
     display: none;
 }

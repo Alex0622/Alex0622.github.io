@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex0622 - Arts</title>
-    <link rel="icon" href="../img/logo.png" type="image/icon type">
+    <title>Alex0622 - Password Generator</title>
+    <link rel="icon" href="../../img/logo.png" type="image/icon type">
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--CUSTOM FONTS-->
@@ -23,22 +23,25 @@
 
     <div class="container">
         <nav class="nav-main">
-            <img src="../img/logo.png" alt="Alex22 LOGO" class="nav-brand">
+            <img src="../../img/logo.png" alt="Alex22 LOGO" class="nav-brand">
             <ul class="nav-menu show">
                 <li>
-                    <a href="../index.html">Home</a>
+                    <a href="../../index.html">Home</a>
                 </li>
                 <li>
-                    <a href="../About/index.html">About</a>
+                    <a href="../../About/index.html">About</a>
                 </li>
                 <li>
-                    <a href="../DiscordBots/index.html">Discord Bots</a>
+                    <a href="../../DiscordBots/index.html">Discord Bots</a>
                 </li>
                 <li>
-                    <a href="../TestPrograms/index.html">Test Programs</a>
+                    <a href="../index.html">Test Programs</a>
                 </li>
                 <li>
-                    <a href="../MinecraftServers/index.html">Minecraft servers</a>
+                    <a href="../../MinecraftServers/index.html">Minecraft servers</a>
+                </li>
+                <li>
+                    <a href="../../Arts/index.html">Arts</a>
                 </li>
             </ul>
             <ul class="nav-menu-right">
@@ -54,42 +57,31 @@
         <header class="showcase">
             <h2>IMPORTANT</h2>
             <p>This is a website which is still in development so be aware that it's normal to find bugs. In case you find any bug, please help us by reporting it on Discord(Alex22#7756).</p>
-            <a href="../Warning/index.html" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
+            <a href="../../Warning/index.html" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
         </header>
+        <!--PASSWORD GENERATOR-->
+        <div class="container1">
+            <h1 class="title">Password Generator</h1>
+            <h3 class="password-display" id="passwordDisplay">password</h3>
+            <form id="passwordGeneratorForm" class="form">
+              <label for="characterAmountNumber">Number Of Characters</label>
+              <div class="character-amount-container">
+                <input type="range" min="1" max="50" value="10" id="characterAmountRange">
+                <input class="number-input" type="number" min="1" max="50" value="10" id="characterAmountNumber">
+              </div>
         
-        <!--BANNER THREE-->
-        <section class="card-banner-three">
-            <div class="content">
-                <h2>Arts</h2>
-                <p>First of all: I'm not an artist at all, what I do is that I take references from pictures to get the lines of what I want to draw then I add my own style with colors or change something. Although, I'm kinda learning and practicing to be able to do my own art without needing to use references.</p>
-            </div>
-        </section>
-        <!--NEWS CARDS-->
-        <div class="news-cards">
-            <div>
-                <img src="../img/THO-EdalynClawthorne-Signature.png" alt="UpsideDown">
-                <h3>Upside Down</h3>
-                <p>I wanted to draw something about The Owl House and why not Eda and the owl beast?</p>
-                <a href="https://www.instagram.com/p/CUf1NLYFcCo/">Check it out on <i class="fab fa-instagram"></i></a>
-            </div>
-            <div>
-                <img src="../img/SquidGame-Signature.png" alt="SquidGame">
-                <h3>Squid Game</h3>
-                <p>I didn't draw this because Squid Game popular, I did it because when I first watched the series it was awesome, my congratulations to its creators.</p>
-                <a href="https://www.instagram.com/p/CUZO9MWAXpa/">Check it out on <i class="fab fa-instagram"></i></a>
-            </div>
-            <div>
-                <img src="../img/AngryBirds-Signature.png" alt="AngryBirds">
-                <h3>Angry Birds</h3>
-                <p>I grew up playing this incredible game, unfortunately the original game was (for some reason) removed, I wanted to live some memories I got when I used to play this awesome videogame.</p>
-                <a href="https://www.instagram.com/p/CTnI8BElxtv/">Check it out on <i class="fab fa-instagram"></i></a>
-            </div>
-            <div>
-                <img src="../img/BillCipher-Signature.png" alt="BillCipher">
-                <h3>Bill Cipher</h3>
-                <p>Bill Cipher is one of my favorite characters of Gravity Falls, and I always wondered "how would Bill look if he was a human?".</p> 
-                <a href="https://www.instagram.com/p/CTH3KHxguLY/">Check it out on <i class="fab fa-instagram"></i></a>
-            </div>
+              <label for="includeUppercase">Include Uppercase</label>
+              <input type="checkbox" id="includeUppercase">
+        
+              <label for="includeNumbers">Include Numbers</label>
+              <input type="checkbox" id="includeNumbers">
+        
+              <label for="includeSymbols">Include Symbols</label>
+              <input type="checkbox" id="includeSymbols">
+        
+              <button type="submit" class="btn">Generate Password</button>
+            </form>
+          </div>
         </div>
         <!--SOCIAL-->
         <div class="social">
@@ -130,6 +122,9 @@
                 </li>
                 <li>
                     <a href="https://www.youtube.com/channel/UCX9NJ471o7Wie1DQe94RVIg">Fazt</a>
+                </li>
+                <li>
+                    <a href="https://github.com/WebDevSimplified">WebDevSimplified</a>
                 </li>
             </ul>
             <ul>
