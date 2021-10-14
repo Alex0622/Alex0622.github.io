@@ -206,6 +206,10 @@ hr {
     margin: 10px 0 20px 0;
 }
 
+.card-banner-five .last-updated {
+    color: #9e9a9a;
+}
+
 /* SOCIAL */
 .social {
     margin: 50px;
@@ -257,13 +261,12 @@ hr {
 
 .footer {
     background: #2f3640;
-    color: #616161;
+    color: #888f8e;
     font-size: 12px;
     padding: 20px 0;
     text-align: center;
     padding-bottom: 20px;
 }
-
 @media (max-width: 700px){
     
     .menu-btn {
