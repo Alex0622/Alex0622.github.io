@@ -74,7 +74,12 @@ ul {
     z-index: 2;
     display: none;
 }
-
+.msg-menu-1 {
+    display: none;
+}
+.msg-menu-1.show {
+    display: block;
+}
 .msg-menu {
     display: none;
 }
@@ -98,7 +103,7 @@ hr {
     width: 100%;
     background-color: rgb(69, 7, 110);
     height: 400px;
-    background: url('../../../img/showcase.jpeg') no-repeat center center/cover;
+    background: url('./img/showcase.jpeg') no-repeat center center/cover;
     padding: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -159,50 +164,42 @@ hr {
     text-decoration: underline;
 }
 
-/* CARD BANNER FOUR */
-.card-banner-four {
+/* CARD BANNER ONE */
+.card-banner-one {
     width: 100%;
     height: 450px;
-    background: url('../../../img/banner.png') no-repeat center center/cover;
+    background: url('./img/banner.png');
     margin-bottom: 50px;
 }
 
-.card-banner-four .content {
+.card-banner-one .content {
+    width: 35%;
+    padding: 90px 0 0 30px;
+    color: rgb(181, 226, 172);
+}
+
+.card-banner-one p,
+.card-banner-one h2 {
+    margin: 10px 0 20px 0;
+}
+
+/* CARD BANNER TWO */
+.card-banner-two {
+    width: 100%;
+    height: 450px;
+    background: url('./img/Alex22_SV-Aternos.png') no-repeat center center/cover;
+    margin-bottom: 50px;
+}
+
+.card-banner-two .content {
     width: 25%;
     padding: 90px 0 0 30px;
-    color: rgb(10, 171, 235);
+    color: rgb(231, 235, 10);
 }
 
-.card-banner-four p,
-.card-banner-four h2 {
+.card-banner-two p,
+.card-banner-two h2 {
     margin: 10px 0 20px 0;
-}
-
-/* CARD BANNER FIVE */
-.card-banner-five {
-    width: 100%;
-    height: 500px;
-    background-color: #121213;
-    background-position: 0px;
-    margin-bottom: 30px;
-    margin-top: 10px;
-}
-
-.card-banner-five .content {
-    width: 80%;
-    align-items: center;
-    padding: 90px 0 0 30px;
-    color: rgb(138, 223, 240);
-    
-}
-
-.card-banner-five p,
-.card-banner-five h2 {
-    margin: 10px 0 20px 0;
-}
-
-.card-banner-five .last-updated {
-    color: #9e9a9a;
 }
 
 /* SOCIAL */
@@ -267,6 +264,7 @@ hr {
     
     .menu-btn {
         display: block;
+        margin-right: 10px;
     }
     .search-btn {
         margin-right: 30px;
@@ -286,9 +284,11 @@ hr {
         transform: translateX(-400px);
         transition: transform .5s ease-in-out;
     }
+    
     .nav-main ul.nav-menu.show {
         transform: translate(-20px);
     }
+
     .nav-main ul.nav-menu li {
         padding: 20px;
         border-bottom: #ccc solid 1px;
@@ -299,14 +299,10 @@ hr {
     }
     .news-cards{
         grid-template-columns: repeat(2, 1fr);
-        margin-top: 400px;
     }
-    .card-banner-four .content{
-        width: 100%;
-    }
-    .card-banner-five .content{
-        height: 2000px;
-        width: 100%;
+    .card-banner-one .content,
+    .card-banner-two .content {
+        width: 40%;
     }
     .footer-links .footer-container {
         grid-template-columns: repeat(2, 1fr);
@@ -316,46 +312,15 @@ hr {
 @media (max-width:500px){
     .news-cards {
         grid-template-columns: 1fr;
-        margin-top: 600px;
     }
 
     .news-cards img {
         height: 250px;
     }
 
-    .card-banner-four .content{
+    .card-banner-one .content,
+    .card-banner-two .content{
         width: 100%;
-        padding: 60px 20px;
-    }
-    .card-banner-five .content{
-        width: 100%;
-        height: 1200px;
-        margin-bottom: 50px;
-        padding: 60px 20px;
-    }
-    .footer-links .footer-container{
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width:400px){
-    .news-cards {
-        grid-template-columns: 1fr;
-        margin-top: 800px;
-    }
-
-    .news-cards img {
-        height: 250px;
-    }
-
-    .card-banner-four .content{
-        width: 100%;
-        padding: 60px 20px;
-    }
-    .card-banner-five .content{
-        width: 100%;
-        height: 1200px;
-        margin-bottom: 50px;
         padding: 60px 20px;
     }
     .footer-links .footer-container{
