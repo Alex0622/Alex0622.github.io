@@ -158,62 +158,31 @@ hr {
     text-decoration: underline;
 }
 
-/* CARD BANNER THREE */
-.card-banner-three {
+/* BANNER CARDS */
+.banner-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.banner-cards img {
     width: 100%;
-    height: 450px;
-    background: url('../img/banner.png') no-repeat center center/cover;
-    margin-bottom: 50px;
+    height: 300px;
 }
 
-.card-banner-three .content {
-    width: 25%;
-    padding: 90px 0 0 30px;
-    color: rgb(138, 213, 223);
+.banner-cards h3 {
+    font-size: 20px;
+    margin: 10px 0;
 }
 
-.card-banner-three p,
-.card-banner-three h2 {
-    margin: 10px 0 20px 0;
+.green-title {
+    color: #19ba19;
+}
+.blue-title {
+    color: #2B87D3;
 }
 
-/* CARD BANNER FOUR */
-.card-banner-four {
-    width: 100%;
-    height: 450px;
-    background: url('../img/Alex22_SV-Aternos.png') no-repeat center center/cover;
-    margin-bottom: 50px;
-}
-
-.card-banner-four .content {
-    width: 25%;
-    padding: 90px 0 0 30px;
-    color: rgb(138, 213, 223);
-}
-
-.card-banner-four p,
-.card-banner-four h2 {
-    margin: 10px 0 20px 0;
-}
-
-/* CARD BANNER FIVE */
-.card-banner-five {
-    width: 100%;
-    height: 650px;
-    background: url('../img/Alex22_SV-exaroton.png') no-repeat center center/cover;
-    margin-bottom: 50px;
-}
-
-.card-banner-five .content {
-    width: 100%;
-    padding: 10px;
-    color: rgb(10, 224, 39);
-}
-
-.card-banner-five p,
-.card-banner-five h2 {
-    margin: 10px 0 20px 0;
-}
 /* SOCIAL */
 .social {
     margin: 50px;
@@ -309,8 +278,8 @@ hr {
     .news-cards{
         grid-template-columns: repeat(2, 1fr);
     }
-    .card-banner-three .content {
-        width: 40%;
+    .banner-cards {
+        grid-template-columns: 1fr;
     }
     .footer-links .footer-container {
         grid-template-columns: repeat(2, 1fr);
@@ -326,9 +295,8 @@ hr {
         height: 250px;
     }
 
-    .card-banner-three .content{
-        width: 100%;
-        padding: 60px 20px;
+    .banner-cards {
+        grid-template-columns: 1fr;
     }
     .footer-links .footer-container{
         grid-template-columns: 1fr;
