@@ -257,6 +257,18 @@ hr {
     padding-bottom: 20px;
 }
 
+@media (max-width:1000px){
+    .card-banner-four .content{
+        width: 100%;
+    }
+    .card-banner-five .content {
+        width: 100%;
+        height: 700px;
+        margin-bottom: 50px;
+        padding: 60px 20px;
+    }
+}
+
 @media (max-width: 700px){
     
     .menu-btn {
