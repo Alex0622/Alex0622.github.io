@@ -7,6 +7,6 @@ document.querySelector(".search-btn").addEventListener("click", () => {
 });
 
 ScrollReveal().reveal('.showcase');
+ScrollReveal().reveal('.card-banner-four', { delay: 500 });
+ScrollReveal().reveal('.card-banner-five', { delay: 500 });
 ScrollReveal().reveal('.news-cards', { delay: 500 });
-ScrollReveal().reveal('.card-banner-one', { delay: 500 });
-ScrollReveal().reveal('.card-banner-two', { delay: 500 });
