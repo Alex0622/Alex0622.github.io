@@ -377,3 +377,9 @@ hr {
         grid-template-columns: 1fr;
     }
 }
+
+@media(max-width:350){
+    .news-cards {
+        margin-top: 1200px;
+    }
+}
