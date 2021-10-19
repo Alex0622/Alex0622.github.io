@@ -161,13 +161,13 @@ hr {
 /* CARD BANNER THREE */
 .card-banner-three {
     width: 100%;
-    height: 450px;
-    background: url('../img/banner.png') no-repeat center center/cover;
+    height: 350px;
+    background: url('../img/bannertwo.png') no-repeat center center/cover;
     margin-bottom: 50px;
 }
 
 .card-banner-three .content {
-    width: 25%;
+    width: 100%;
     padding: 90px 0 0 30px;
     color: rgb(33, 236, 60);
 }
@@ -287,7 +287,7 @@ hr {
         grid-template-columns: repeat(2, 1fr);
     }
     .card-banner-three .content {
-        width: 40%;
+        width: 100%;
     }
     .footer-links .footer-container {
         grid-template-columns: repeat(2, 1fr);
