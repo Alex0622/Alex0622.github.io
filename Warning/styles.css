@@ -262,6 +262,7 @@ ul {
         grid-template-columns: 1fr;
     }
 }
+
 @media (max-width:400px) {
     .card-banner-three {
         height: 600px;
