@@ -1,2 +1,4 @@
 # Alex0622.github.io
-My first website.
+This is a website mainly used to test HTML, CSS and JavaScript.
+I've decided to use this website for personal purpose as well, such as showing my art, Discord bots, Minecraft servers, etc. 
+You can help by report issues and bugs related to my website [here](https://github.com/Alex0622/Alex0622.github.io/issues) or through Discord (**Alex22#7756**). If you have experience with creating websites I'll be happy that you help me contributing in it, I'll be adding you at the bottom of the page as well as a "thank you" for your service. But I recommend that you don't implement your website in mine, one of the main ideas of my website is that it must me fully new and creative.
