@@ -67,6 +67,4 @@ function syncCharacterAmount(e) {
 }
 
 ScrollReveal().reveal('.showcase');
-ScrollReveal().reveal('.news-cards', { delay: 500 });
-ScrollReveal().reveal('.card-banner-one', { delay: 500 });
-ScrollReveal().reveal('.card-banner-two', { delay: 500 });
+ScrollReveal().reveal('.container1', { delay: 500 });
