@@ -134,7 +134,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
-    margin: 10px 0;
+    padding: 50px 0 75px;
 }
 
 .news-cards img {
@@ -163,8 +163,7 @@ hr {
 .card-banner-four {
     width: 100%;
     height: 350px;
-    background: url('../../../img/bannertwo.png') no-repeat center center/cover;
-    margin-bottom: 50px;
+    background: url('../../../img/bannertwo.png') no-repeat center center/cover;;
 }
 
 .card-banner-four .content {
@@ -185,7 +184,6 @@ hr {
     background-color: #121213;
     background-position: 0px;
     margin-bottom: 30px;
-    margin-top: 10px;
 }
 
 .card-banner-five .content {
@@ -276,6 +274,9 @@ hr {
         margin-bottom: 50px;
         padding: 60px 20px;
     }
+    .news-cards {
+        padding: 200px 0 75px;
+    }
 }
 
 @media (max-width: 700px){
@@ -316,7 +317,7 @@ hr {
     }
     .news-cards{
         grid-template-columns: repeat(2, 1fr);
-        margin-top: 40px;
+        padding: 300px 0 75px;
     }
     .card-banner-four .content{
         width: 100%;
@@ -352,7 +353,7 @@ hr {
 @media (max-width:400px){
     .news-cards {
         grid-template-columns: 1fr;
-        margin-top: 300px;
+        padding: 550px 0 15px;
     }
 
     .news-cards img {
@@ -361,6 +362,7 @@ hr {
 
     .card-banner-four .content{
         width: 100%;
+        height: 450px;
         padding: 60px 20px;
     }
     .card-banner-five .content{
@@ -368,11 +370,5 @@ hr {
         height: 1200px;
         margin-bottom: 20px;
         padding: 60px 20px;
-    }
-}
-
-@media (max-width:400px) {
-    .card-banner-four {
-        height: 450px;
     }
 }
