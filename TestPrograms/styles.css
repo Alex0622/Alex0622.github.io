@@ -134,10 +134,10 @@ hr {
     margin-bottom: 10px;
 }
 
-/* NEWS CARDS */
+/* TEST PROGRAMS */
 .news-cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     margin: 10px 0;
 }
@@ -150,11 +150,12 @@ hr {
 .news-cards h3 {
     font-size: 20px;
     margin: 10px 0;
+    color: #82ece7;
 }
 
 .news-cards a {
     padding: 10px 0;
-    color: #f2f2f2;
+    color: hsl(0, 81%, 79%);
     text-transform: uppercase;
     display: inline-block;
     font-weight: bold;
@@ -164,6 +165,9 @@ hr {
     text-decoration: underline;
 }
 
+.news-cards p {
+    color: #a4ee95;
+}
 /* CARD BANNER THREE */
 .card-banner-three {
     width: 100%;

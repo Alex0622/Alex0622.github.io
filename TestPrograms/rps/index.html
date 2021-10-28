@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex0622 - Test Programs</title>
-    <link rel="icon" href="../img/logo.png" type="image/icon type">
+    <title>Alex0622 - Password Generator</title>
+    <link rel="icon" href="../../img/logo.png" type="image/icon type">
     <!--EMBED-->
     <meta name="description" content="Hello there, name's Alex. I'm a user who is learning how to create programs using tutorials, courses, resources and more. This is my first website where I'm learning HTML, CSS and JavaScript.">
     <meta name="og:site_name" content="Alex0622">
@@ -20,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <!--CUSTOM CSS-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -30,22 +30,25 @@
 
     <div class="container">
         <nav class="nav-main">
-            <img src="../img/logo.png" alt="Alex22 LOGO" class="nav-brand">
+            <img src="../../img/logo.png" alt="Alex22 LOGO" class="nav-brand">
             <ul class="nav-menu ">
                 <li>
-                    <a href="../index.html">Home</a>
+                    <a href="../../index.html">Home</a>
                 </li>
                 <li>
-                    <a href="../About/index.html">About</a>
+                    <a href="../../About/index.html">About</a>
                 </li>
                 <li>
-                    <a href="../DiscordBots/index.html">Discord Bots</a>
+                    <a href="../../DiscordBots/index.html">Discord Bots</a>
                 </li>
                 <li>
-                    <a href="../MinecraftServers/index.html">Minecraft servers</a>
+                    <a href="../index.html">Test Programs</a>
                 </li>
                 <li>
-                    <a href="../Arts/index.html">Arts</a>
+                    <a href="../../MinecraftServers/index.html">Minecraft servers</a>
+                </li>
+                <li>
+                    <a href="../../Arts/index.html">Arts</a>
                 </li>
             </ul>
             <ul class="nav-menu-right">
@@ -61,35 +64,26 @@
         <header class="showcase">
             <h2>IMPORTANT</h2>
             <p>This is a website which is still in development so be aware that it's normal to find bugs. In case you find any bug, please help us by reporting it on Discord(Alex22#7756).</p>
-            <a href="../Warning/index.html" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
+            <a href="../../Warning/index.html" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
         </header>
-        
-        <!--BANNER THREE-->
-        <section class="card-banner-three">
-            <div class="content">
-                <h2>Test Programs</h2>
-                <p>Thanks to some YouTube videos I've created some basic test programs that are either useful or for entertainment!</p>
-            </div>
-        </section>
-        <!--TEST PROGRAMS-->
-        <h2 class="title-programs">Our Test Programs</h2>
-        <div class="news-cards">
+        <!--ROCK PAPER SCISSORS-->
+        <div class="selections">
+            <button class="selection" data-selection="rock">✊</button>
+            <button class="selection" data-selection="paper">✋</button>
+            <button class="selection" data-selection="scissors">✌</button>
+          </div>
+          <div class="results">
             <div>
-                <h3>Password Generator</h3>
-                <p>This program helps you create random strong passwords, you decide if the passsword should include numbers, uppercase, symbols and how many characters should have.</p>
-                <a href="./genpass/index.html">Read More <i class="fas fa-angle-double-right"></i></a>
+              You
+              <span class="result-score" data-your-score>0</span>
             </div>
-            <div>
-                <h3>Password Strengh Test</h3>
-                <p>This program helps you test how strong your passsword is. It checks if your password is too short, doesn't include enough numbers, symbols, and more.</p>
-                <a href="./testpass/index.html">Read More <i class="fas fa-angle-double-right"></i></a>
+            <div data-final-column>
+              Computer
+              <span class="result-score" data-computer-score>0</span>
             </div>
-            <div>
-                <h3>Rock Paper Scissors</h3>
-                <p>If you are bored, you should play this incredible basic game. Do you think you can win the computer? try it out!</p>
-                <a href="./rps/index.html">Read More <i class="fas fa-angle-double-right"></i></a>
-            </div>
-        </div>
+            <!-- <div class="result-selection winner">✊</div>
+            <div class="result-selection">✌</div> -->
+          </div>
         <!--SOCIAL-->
         <div class="social">
             <p>Follow Alex22</p>
