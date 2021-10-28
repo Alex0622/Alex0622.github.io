@@ -142,13 +142,14 @@ hr {
 }
 
 .news-cards h3 {
+    color: #bcf5ec;
     font-size: 20px;
     margin: 10px 0;
 }
 
 .news-cards a {
     padding: 10px 0;
-    color: #f2f2f2;
+    color: #ccaef5;
     text-transform: uppercase;
     display: inline-block;
     font-weight: bold;
@@ -157,6 +158,10 @@ hr {
 .news-cards a:hover {
     text-decoration: underline;
 }
+.news-cards p {
+    color: rgb(255, 214, 127);
+}
+
 
 /* CARD BANNER THREE */
 .card-banner-three {
