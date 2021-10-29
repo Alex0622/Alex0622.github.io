@@ -158,22 +158,22 @@ hr {
     text-decoration: underline;
 }
 
-/* CARD BANNER THREE */
-.card-banner-three {
+/* MINECRAFT SERVERS BANNER */
+.minecraft-servers-banner {
     width: 100%;
     height: 250px;
     background: url('../img/bannertwo.png') no-repeat center center/cover;
     margin-bottom: 50px;
 }
 
-.card-banner-three .content {
+.minecraft-servers-banner .content {
     width: 100%;
     padding: 90px 0 0 30px;
     color: #fbff00;
 }
 
-.card-banner-three p,
-.card-banner-three h2 {
+.minecraft-servers-banner p,
+.minecraft-servers-banner h2 {
     margin: 10px 0 20px 0;
 }
 
@@ -277,7 +277,7 @@ hr {
     .news-cards{
         grid-template-columns: repeat(2, 1fr);
     }
-    .card-banner-three .content {
+    .minecraft-servers-banner .content {
         width: 100%;
     }
 }
@@ -291,14 +291,14 @@ hr {
         height: 250px;
     }
 
-    .card-banner-three .content{
+    .minecraft-servers-banner .content{
         width: 100%;
         padding: 60px 20px;
     }
 }
 
 @media (max-width:400px) {
-    .card-banner-three {
+    .minecraft-servers-banner {
         height: 350px;
     }
 }
