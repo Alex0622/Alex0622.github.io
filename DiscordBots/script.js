@@ -8,4 +8,4 @@ document.querySelector(".search-btn").addEventListener("click", () => {
 
 ScrollReveal().reveal('.warning-banner');
 ScrollReveal().reveal('.card-banner-three', { delay: 500 });
-ScrollReveal().reveal('.news-cards', { delay: 500 });
+ScrollReveal().reveal('.bots-cards', { delay: 500 });
