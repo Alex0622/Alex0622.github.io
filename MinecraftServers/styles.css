@@ -168,13 +168,16 @@ hr {
 
 .minecraft-servers-banner .content {
     width: 100%;
-    padding: 90px 0 0 30px;
-    color: #fbff00;
+    padding: 90px 0 0 30px
 }
 
-.minecraft-servers-banner p,
+.minecraft-servers-banner p {
+    margin: 10px 0 20px 0;
+    color: #f8ed87;
+}
 .minecraft-servers-banner h2 {
     margin: 10px 0 20px 0;
+    color: rgb(141, 247, 224);
 }
 
 /* SOCIAL */

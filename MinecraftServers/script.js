@@ -7,5 +7,5 @@ document.querySelector(".search-btn").addEventListener("click", () => {
 });
 
 ScrollReveal().reveal('.showcase');
-ScrollReveal().reveal('.card-banner-three', { delay: 500 });
+ScrollReveal().reveal('.minecraft-servers-banner', { delay: 500 });
 ScrollReveal().reveal('.news-cards', { delay: 500 });
