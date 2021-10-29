@@ -128,6 +128,29 @@ hr {
     margin-bottom: 10px;
 }
 
+/* ABOUT BANNER */
+.about-banner {
+    width: 100%;
+    background-color: rgb(69, 7, 110);
+    height: 200px;
+    background: url('../img/bannertwo.png') no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.about-banner h2 {
+    color: rgb(201, 152, 247);
+}
+.about-banner p {
+    color: rgb(245, 208, 160);
+}
+.about-banner a {
+    color: rgb(158, 248, 226);
+}
+
 /* NEWS CARDS */
 .news-cards {
     display: grid;
@@ -283,6 +306,9 @@ hr {
     .nav-main ul.nav-menu-right{
         margin-right: 40px;
     }
+    .about-banner {
+        height: 225px;
+    }
     .news-cards{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -302,5 +328,14 @@ hr {
 
     .banner-cards {
         grid-template-columns: 1fr;
+    }
+    .about-banner {
+        height: 300px;
+    }
+}
+
+@media (max-width:400px){
+    .about-banner {
+        height: 400px;
     }
 }
