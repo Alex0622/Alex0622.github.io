@@ -102,5 +102,5 @@ function repeatCharactersWeakness(password) {
   }
 }
 
-ScrollReveal().reveal('.showcase');
+ScrollReveal().reveal('.warning-banner');
 ScrollReveal().reveal('.container2', { delay: 500 });

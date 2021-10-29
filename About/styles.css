@@ -89,11 +89,11 @@ ul {
     z-index: 2;
 }
 
-/* SHOWCASE */
+/* WARNING BANNER */
 hr {
     margin: 10px 0;
  }
-.showcase {
+.warning-banner {
     width: 100%;
     background-color: rgb(69, 7, 110);
     height: 400px;
@@ -123,9 +123,13 @@ hr {
     opacity: .7;
 }
 
-.showcase h2,
-.showcase p{
+.warning-banner h2{
     margin-bottom: 10px;
+    color:#eef146;
+}
+.warning-banner p{
+    margin-bottom: 10px;
+    color: rgb(240, 201, 75);
 }
 
 /* ABOUT BANNER */

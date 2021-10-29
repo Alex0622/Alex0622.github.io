@@ -69,6 +69,6 @@ function randomSelection() {
   return SELECTIONS[randomIndex]
 }
 
-ScrollReveal().reveal('.showcase');
+ScrollReveal().reveal('.warning-banner');
 ScrollReveal().reveal('.selections', { delay: 500 });
 ScrollReveal().reveal('.results', { delay: 500 });

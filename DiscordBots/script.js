@@ -6,6 +6,6 @@ document.querySelector(".search-btn").addEventListener("click", () => {
     document.querySelector(".msg-menu").classList.toggle("show");
 });
 
-ScrollReveal().reveal('.showcase');
+ScrollReveal().reveal('.warning-banner');
 ScrollReveal().reveal('.card-banner-three', { delay: 500 });
 ScrollReveal().reveal('.news-cards', { delay: 500 });

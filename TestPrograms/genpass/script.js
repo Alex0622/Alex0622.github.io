@@ -66,5 +66,5 @@ function syncCharacterAmount(e) {
   characterAmountRange.value = value
 }
 
-ScrollReveal().reveal('.showcase');
+ScrollReveal().reveal('.warning-banner');
 ScrollReveal().reveal('.container1', { delay: 500 });
