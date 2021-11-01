@@ -282,7 +282,7 @@ hr {
         margin-bottom: 50px;
         padding: 60px 20px;
     }
-    .news-cards {
+    .bots-cards {
         padding: 200px 0 75px;
     }
 }
@@ -323,7 +323,7 @@ hr {
     .nav-main ul.nav-menu-right{
         margin-right: 40px;
     }
-    .news-cards{
+    .bots-cards{
         grid-template-columns: repeat(2, 1fr);
         padding: 300px 0 75px;
     }
@@ -337,12 +337,12 @@ hr {
 }
 
 @media (max-width:500px){
-    .news-cards {
+    .bots-cards {
         grid-template-columns: 1fr;
         margin-top: 200px;
     }
 
-    .news-cards img {
+    .bots-cards img {
         height: 250px;
     }
 
@@ -359,12 +359,12 @@ hr {
 }
 
 @media (max-width:400px){
-    .news-cards {
+    .bots-cards {
         grid-template-columns: 1fr;
         padding: 550px 0 15px;
     }
 
-    .news-cards img {
+    .bots-cards img {
         height: 250px;
     }
 
