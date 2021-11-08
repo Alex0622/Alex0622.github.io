@@ -189,17 +189,17 @@ hr {
 /* CARD BANNER FIVE */
 .card-banner-five {
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-color: #121213;
     background-position: 0px;
     margin-bottom: 30px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .card-banner-five .content {
-    width: 80%;
+    width: 100%;
     align-items: center;
-    padding: 90px 0 0 30px;
+    padding: 0 0 0 15px;
     color: rgb(138, 223, 240);
     
 }
@@ -278,11 +278,10 @@ hr {
     .card-banner-four .content{
         width: 100%;
     }
-    .card-banner-five .content{
+    .card-banner-five {
         width: 100%;
-        height: 700px;
-        margin-bottom: 50px;
-        padding: 60px 20px;
+        height: 500px;
+        padding-bottom: 20px;
     }
 }
 
@@ -329,38 +328,39 @@ hr {
     .card-banner-four .content{
         width: 100%;
     }
-    .card-banner-five .content{
-        height: 100px;
-        width: 100%;
+    .card-banner-five {
+        margin-bottom: 10px;
+        height: 550px;
+    }
+    .bots-cards-title {
+        margin-top: 40px;
     }
 }
 
 @media (max-width:500px){
     .bots-cards {
         grid-template-columns: 1fr;
-        margin-top: 200px;
     }
-
     .bots-cards img {
         height: 250px;
     }
-
     .card-banner-four .content{
         width: 100%;
         padding: 60px 20px;
     }
-    .card-banner-five .content{
+    .card-banner-five {
         width: 100%;
-        height: 1200px;
+        height: 610px;
         margin-bottom: 50px;
-        padding: 60px 20px;
+    }
+    .bots-cards-title {
+        margin-top: 60px;
     }
 }
 
 @media (max-width:400px){
     .bots-cards {
         grid-template-columns: 1fr;
-        margin-top: 300px;
     }
 
     .bots-cards img {
@@ -371,16 +371,9 @@ hr {
         width: 100%;
         padding: 60px 20px;
     }
-    .card-banner-five .content{
+    .card-banner-five{
         width: 100%;
-        height: 1200px;
+        height: 750px;
         margin-bottom: 20px;
-        padding: 60px 20px;
-    }
-}
-
-@media (max-width:400px) {
-    .card-banner-four {
-        height: 450px;
     }
 }
