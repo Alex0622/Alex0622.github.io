@@ -104,13 +104,14 @@ ul {
 }
 
 .news-cards h3 {
+    color: #ccaae7;
     font-size: 20px;
     margin: 10px 0;
 }
 
 .news-cards a {
     padding: 10px 0;
-    color: #f2f2f2;
+    color: hsl(0, 85%, 87%);
     text-transform: uppercase;
     display: inline-block;
     font-weight: bold;
@@ -120,6 +121,9 @@ ul {
     text-decoration: underline;
 }
 
+.news-cards p {
+    color: #c0faf1;
+}
 /* CARD BANNER THREE */
 .card-banner-three {
     width: 100%;
