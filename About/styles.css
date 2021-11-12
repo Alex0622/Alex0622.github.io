@@ -155,6 +155,23 @@ hr {
     color: rgb(158, 248, 226);
 }
 
+/* SHADOWPLAYERS*/ 
+.shadowplayers {
+    width: 90%;
+    margin: auto;
+}
+.shadowplayers img {
+    width: 90%;
+}
+.shadowplayers h2 {
+    color: #f1468d;
+}
+.shadowplayers p {
+    color: #fdca7c;
+}
+.shadowplayers a {
+    color: rgb(252, 252, 135);
+}
 /* NEWS CARDS */
 .news-cards {
     display: grid;
