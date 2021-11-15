@@ -316,7 +316,7 @@ hr {
     .nav-main ul.nav-menu-right{
         margin-right: 40px;
     }
-    .news-cards{
+    .bots-cards{
         grid-template-columns: repeat(2, 1fr);
     }
     .card-banner-four .content{
@@ -328,11 +328,11 @@ hr {
 }
 
 @media (max-width:500px){
-    .news-cards {
+    .bots-cards {
         grid-template-columns: 1fr;
     }
 
-    .news-cards img {
+    .bots-cards img {
         height: 250px;
     }
 

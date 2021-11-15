@@ -167,44 +167,67 @@ hr {
     color: rgb(255, 214, 127);
 }
 
+/* BOT LOGO */
+.logo {
+    width: 100%;
+}
+.logo img {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    height: 400px;
+}
 /* CARD BANNER FOUR */
 .card-banner-four {
     width: 100%;
-    height: 300px;
-    background: url('https://i.imgur.com/7dzNe4v.png') no-repeat center center/cover;
-    margin-bottom: 50px;
+    height: 100px;
 }
 
 .card-banner-four .content {
     width: 100%;
-    padding: 90px 0 0 30px;
-    color: rgb(10, 171, 235);
-}
-
-.card-banner-four p,
-.card-banner-four h2 {
-    margin: 10px 0 20px 0;
+    padding: 10px 0 0 0;
+    color: rgb(138, 223, 240);
 }
 
 /* CARD BANNER FIVE */
 .card-banner-five {
     width: 100%;
-    height: 450px;
-    background: url('../../img/Al3xisBot.jpg') no-repeat center center/cover;
+    height: 100px;
     background-position: 0px;
     margin-bottom: 50px;
 }
-
-.card-banner-five .content {
-    width: 25%;
-    padding: 90px 0 0 30px;
-    color: rgb(16, 175, 214);
-    
+.card-banner-five a {
+    color: rgb(138, 223, 240);
 }
 
-.card-banner-five p,
-.card-banner-five h2 {
-    margin: 10px 0 20px 0;
+.card-banner-five .content {
+    width: 100%;
+    padding: 10px 0 0 0;
+    color: rgb(138, 223, 240);  
+}
+.terms .last-updated {
+    color: #9e9a9a;
+}
+
+/* TERMS OF USE */
+.terms {
+    width: 100%;
+    height: 275px;
+    padding: 10px 0 35px 0;
+    color: rgb(138, 223, 240);
+}
+
+/* PRIVACY POLICY */
+.privacy {
+    width: 100%;
+    height: 425px;
+    background-position: 0px;
+    padding: 50px 0 30px 0;
+    margin-bottom: 50px;
+    color: rgb(138, 223, 240);
+}
+.privacy .last-updated {
+    color: #9e9a9a;
 }
 
 /* SOCIAL */
@@ -269,14 +292,24 @@ hr {
 }
 
 @media (max-width:1000px){
-    .card-banner-four .content{
+    .card-banner-four {
         width: 100%;
+        height: 150px;
     }
-    .card-banner-five .content {
+    .card-banner-five {
         width: 100%;
-        height: 700px;
+        height: 150px;
         margin-bottom: 50px;
-        padding: 60px 20px;
+    }
+    .terms {
+        width: 100%;
+        height: 350px;
+    }
+    .privacy {
+        height: 100%;
+        height: 475px;
+        padding-top: 25px;
+        padding-bottom: 50px;
     }
 }
 
@@ -316,38 +349,90 @@ hr {
     .nav-main ul.nav-menu-right{
         margin-right: 40px;
     }
-    .news-cards{
+    .bots-cards{
         grid-template-columns: repeat(2, 1fr);
     }
-    .card-banner-four .content{
+    .card-banner-four {
+        height: 200px;
         width: 100%;
     }
-    .card-banner-five .content{
-        width: 80%;
+    .card-banner-five {
+        height: 200px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .terms {
+        width: 100%;
+        height: 475px;
+        padding-bottom: 10px;
+    }
+    .privacy {
+        width: 100%;
+        height: 650px;
+        padding: 15px 0 75px 0;
+        margin-bottom: 50px;
     }
 }
 
 @media (max-width:500px){
-    .news-cards {
+    .bots-cards {
         grid-template-columns: 1fr;
     }
 
-    .news-cards img {
+    .bots-cards img {
         height: 250px;
     }
-
-    .card-banner-four .content{
+    .card-banner-four {
+        height: 225px;
         width: 100%;
-        padding: 60px 20px;
     }
-    .card-banner-five .content{
+    .card-banner-five {
+        height: 225px;
         width: 100%;
-        padding: 60px 20px;
+    }
+    .terms {
+        height: 500px;
+        margin-bottom: 30px;
+    }
+    .privacy {
+        height: 725px;
     }
 }
 
 @media (max-width:450px) {
     .card-banner-four {
-        height: 400px;
+        height: 250px;
+    }
+    .card-banner-five {
+        height: 250px;
+    }
+    .terms {
+        height: 575px;
+    }
+    .privacy {
+        height: 775px;
+    }
+}
+
+@media(max-width:400px) {
+    .terms {
+        height: 600px;
+    }
+    .privacy {
+        height: 875px;
+    }
+}
+
+@media(max-width:350px) {
+    .terms {
+        height: 680px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .privacy {
+        height: 975px;
     }
 }

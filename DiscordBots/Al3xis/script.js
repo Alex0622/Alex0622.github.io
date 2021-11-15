@@ -9,4 +9,6 @@ document.querySelector(".search-btn").addEventListener("click", () => {
 ScrollReveal().reveal('.warning-banner');
 ScrollReveal().reveal('.card-banner-four', { delay: 500 });
 ScrollReveal().reveal('.card-banner-five', { delay: 500 });
+ScrollReveal().reveal('.terms', { delay: 500 });
+ScrollReveal().reveal('.privacy', { delay: 500 });
 ScrollReveal().reveal('.bots-cards', { delay: 500 });
