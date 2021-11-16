@@ -139,25 +139,25 @@ hr {
 }
 
 /* TEST PROGRAMS */
-.news-cards {
+.programs-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 25px;
     margin: 10px 0;
 }
 
-.news-cards img {
+.programs-cards img {
     width: 100%;
     height: 180px;
 }
 
-.news-cards h3 {
+.programs-cards h3 {
     font-size: 20px;
     margin: 10px 0;
     color: #82ece7;
 }
 
-.news-cards a {
+.programs-cards a {
     padding: 10px 0;
     color: hsl(0, 81%, 79%);
     text-transform: uppercase;
@@ -165,11 +165,11 @@ hr {
     font-weight: bold;
 }
 
-.news-cards a:hover {
+.programs-cards a:hover {
     text-decoration: underline;
 }
 
-.news-cards p {
+.programs-cards p {
     color: #a4ee95;
 }
 /* CARD BANNER THREE */
@@ -288,7 +288,7 @@ hr {
     .nav-main ul.nav-menu-right{
         margin-right: 40px;
     }
-    .news-cards{
+    .programs-cards{
         grid-template-columns: repeat(2, 1fr);
     }
     .card-banner-three .content {
@@ -297,11 +297,11 @@ hr {
 }
 
 @media (max-width:500px){
-    .news-cards {
+    .programs-cards {
         grid-template-columns: 1fr;
     }
 
-    .news-cards img {
+    .programs-cards img {
         height: 250px;
     }
 
