@@ -101,6 +101,28 @@ a.active,a:hover{
     color: #b5f6ff; 
     margin-bottom: 50px;
 }
+/* SHADOWPLAYERS */
+.shadowplayers {
+    display: grid;
+    margin: auto;
+    width: 90%;
+} 
+.shadowplayers h1 {
+    color: #97d9ff;
+}
+.shadowplayers p {
+    color: #dff7ff;
+}
+.shadowplayers .links {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shadowplayers .links a {
+    margin: 0    30px;
+}
 /* ART */
 .art {
     width: 95%;
