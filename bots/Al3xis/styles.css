@@ -14,6 +14,7 @@ body {
 
 }
 
+
 a {
     color: white;
     text-decoration: none;
@@ -83,100 +84,71 @@ a.active,a:hover{
     display: none;
 }
 
-/* INTRO */
-.intro  {
-    display: grid;
-    width: 95%;
+/* BOT LOGO */
+.logo {
+    width: 100%;
+}
+.logo img {
+    display: flex;
+    width: 50%;
     margin: auto;
-    padding: 0 0 0 30px; 
+    height: 400px;
 }
- 
- .intro h1 {
-    color: #b3a6ff; 
-    margin-top: 30px;
-    margin-bottom: 15px;
+/* INTRO */
+.intro {
+    width: 100%;
+    height: 100px;
 }
- 
- .intro p {
-    color: #b5f6ff; 
+
+.intro .content {
+    width: 100%;
+    padding: 10px 0 0 0;
+    color: rgb(138, 223, 240);
+}
+
+/* CARD BANNER FIVE */
+.about {
+    width: 100%;
+    height: 100px;
+    background-position: 0px;
     margin-bottom: 50px;
 }
-/* ART */
-.art {
-    width: 95%;
+.about a {
+    color: rgb(138, 223, 240);
+}
+
+.about .content {
+    width: 100%;
+    padding: 10px 0 0 0;
+    color: rgb(138, 223, 240);  
+}
+
+
+/* TERMS OF USE */
+.terms {
+    width: 100%;
+    height: 275px;
+    padding: 10px 0 35px 0;
+    color: rgb(138, 223, 240);
+}
+
+.terms .last-updated {
+    color: #9e9a9a;
+}
+
+/* PRIVACY POLICY */
+.privacy {
+    width: 100%;
+    height: 425px;
+    background-position: 0px;
+    padding: 50px 0 30px 0;
     margin-bottom: 50px;
+    color: rgb(138, 223, 240);
 }
-.art .title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-    color: #ccaae7;
+.privacy .last-updated {
+    color: #9e9a9a;
 }
-.art .list-art {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    margin: 10px 0;
-    align-items: center;
-}
-.art .list-art img {
-    width: 100%;
-    height: 300px;
-}
-/* DISCORD BOTS */
-.discordbots {
-    width: 95%;
-    margin-bottom: 50px;
-}
-.discordbots .title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-    color: #aae7c5;
-}
-.discordbots .list-bots {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
-    margin: 10px 0;
-    align-items: center;
-}
-.discordbots .list-bots .bot-item h2 {
-    color: #aad9e7;
-}
-.discordbots .list-bots .bot-item p {
-    color: #cbe7aa;
-}
-/* TEST PROGRAMS */ 
-.testprograms {
-    width: 95%;
-    margin-bottom: 50px;
-}
-.testprograms .title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-    color: #e7aeaa;
-}
-.testprograms .list-programs {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-    margin: 10px 0;
-    align-items: center;
-}
-.testprograms .list-programs .program-item h2 {
-    color: #e7aace;
-}
-.testprograms .list-programs .program-item p {
-    color: #aae7df;
-}
+
 /* SOCIAL */
 .social {
     margin: 50px;
@@ -278,27 +250,111 @@ a.active,a:hover{
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media(max-width:1000px) {
-    .art {
+
+@media (max-width:1000px){
+    .intro {
         width: 100%;
+        height: 150px;
     }
-    .art .list-art {
-        grid-template-columns: repeat(2, 1fr);
+    .about {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 50px;
     }
-    .testprograms .list-programs {
-        grid-template-columns: repeat(2, 1fr);
+    .terms {
+        width: 100%;
+        height: 350px;
+    }
+    .privacy {
+        height: 100%;
+        height: 475px;
+        padding-top: 25px;
+        padding-bottom: 50px;
     }
 }
 
+@media (max-width: 700px){
+    .intro {
+        height: 200px;
+        width: 100%;
+    }
+    .about {
+        height: 200px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .terms {
+        width: 100%;
+        height: 475px;
+        padding-bottom: 10px;
+    }
+    .privacy {
+        width: 100%;
+        height: 650px;
+        padding: 15px 0 75px 0;
+        margin-bottom: 50px;
+    }
+}
 
-@media(max-width:600px) {
-    .art .list-art {
+@media (max-width:500px){
+    .bots-cards {
         grid-template-columns: 1fr;
     }
-    .discordbots .list-bots {
-        grid-template-columns: 1fr;
+
+    .bots-cards img {
+        height: 250px;
     }
-    .testprograms .list-programs { 
-        grid-template-columns: 1fr;
+    .intro {
+        height: 225px;
+        width: 100%;
+    }
+    .about {
+        height: 225px;
+        width: 100%;
+    }
+    .terms {
+        height: 500px;
+        margin-bottom: 30px;
+    }
+    .privacy {
+        height: 725px;
+    }
+}
+
+@media (max-width:450px) {
+    .intro {
+        height: 250px;
+    }
+    .about {
+        height: 250px;
+    }
+    .terms {
+        height: 575px;
+    }
+    .privacy {
+        height: 775px;
+    }
+}
+
+@media(max-width:400px) {
+    .terms {
+        height: 600px;
+    }
+    .privacy {
+        height: 875px;
+    }
+}
+
+@media(max-width:350px) {
+    .terms {
+        height: 680px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .privacy {
+        height: 975px;
     }
 }
