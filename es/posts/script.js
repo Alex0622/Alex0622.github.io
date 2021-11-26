@@ -1,0 +1,2 @@
+
+ScrollReveal().reveal('.post-cards');
