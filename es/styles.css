@@ -91,13 +91,17 @@ a.active,a:hover{
     padding: 0 0 0 30px; 
 }
  
- .intro h1 {
+.intro h1 {
     color: #b3a6ff; 
     margin-top: 30px;
     margin-bottom: 15px;
 }
- 
- .intro p {
+
+.intro p {
+    color: #b5f6ff; 
+    margin-bottom: 50px;
+}
+.intro a {
     color: #b5f6ff; 
     margin-bottom: 50px;
 }
