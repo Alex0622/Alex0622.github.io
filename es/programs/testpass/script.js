@@ -37,14 +37,14 @@ function lengthWeakness(password) {
 
   if (length <= 5) {
     return {
-      message: 'Your password is too short',
+      message: 'Tu contraseña es muy corta',
       deduction: 40
     }
   }
 
   if (length <= 10) {
     return {
-      message: 'Your password could be longer',
+      message: 'Tu contraseña podría ser más larga',
       deduction: 15
     }
   }
