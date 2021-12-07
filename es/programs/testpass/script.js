@@ -51,20 +51,20 @@ function lengthWeakness(password) {
 }
 
 function uppercaseWeakness(password) {
-  return characterTypeWeakness(password, /[A-Z]/g, 'uppercase characters')
+  return characterTypeWeakness(password, /[A-Z]/g, 'caracteres con mayúsculas')
 
 }
 
 function lowercaseWeakness(password) {
-  return characterTypeWeakness(password, /[a-z]/g, 'lowercase characters')
+  return characterTypeWeakness(password, /[a-z]/g, 'caracteres con minúsculas')
 }
 
 function numberWeakness(password) {
-  return characterTypeWeakness(password, /[0-9]/g, 'numbers')
+  return characterTypeWeakness(password, /[0-9]/g, 'números')
 }
 
 function specialCharactersWeakness(password) {
-  return characterTypeWeakness(password, /[^0-9a-zA-Z\s]/g, 'special characters')
+  return characterTypeWeakness(password, /[^0-9a-zA-Z\s]/g, 'caracteres especiales')
 }
 
 function characterTypeWeakness(password, regex, type) {
@@ -72,14 +72,14 @@ function characterTypeWeakness(password, regex, type) {
 
   if (matches.length === 0) {
     return {
-      message: `Your password has no ${type}`,
+      message: `Tu contraseña no tiene ${type}`,
       deduction: 20
     }
   }
 
   if (matches.length <= 2) {
     return {
-      message: `Your password could use more ${type}`,
+      message: `Tu contraseña podría usar más ${type}`,
       deduction: 5
     }
   }
@@ -89,7 +89,7 @@ function repeatCharactersWeakness(password) {
   const matches = password.match(/(.)\1/g) || []
   if (matches.length > 0) {
     return {
-      message: 'Your password has repeat characters',
+      message: 'Tu contraseña tiene caracteres repetidos',
       deduction: matches.length * 10
     }
   }
