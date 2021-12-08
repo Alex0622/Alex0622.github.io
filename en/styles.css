@@ -151,6 +151,32 @@ a.active,a:hover{
     width: 100%;
     height: 300px;
 }
+/* MINECRAFT SERVERS */ 
+.servers {
+    width: 95%;
+    margin-bottom: 50px; 
+}
+.servers .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #aae7e4;
+}
+.servers .description {
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: #effcda;
+}
+.servers h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #85ff8b;
+}
 /* DISCORD BOTS */
 .discordbots {
     width: 95%;
